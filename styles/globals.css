@@ -20,6 +20,10 @@
   }
 
   .banner_button {
-    @apply flex items-center
-  } 
+    @apply flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold transition hover:opacity-75 md:py-2.5 md:px-8 md:text-xl;
+  }
+
+  .no_scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }
